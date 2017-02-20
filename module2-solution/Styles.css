@@ -1,0 +1,70 @@
+	h3{
+		width: 100%;
+		text-align: center;
+	}
+	.heading{
+		color: black;
+		text-align: center;
+
+	}
+
+	#chickenheading,#BeefHeading,#SushiHeading{
+		background: red;
+		text-align: center;
+		float: right;
+		border: 1px solid black;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		width: 50px;	
+		padding: 5px
+	}
+
+	.chickenBox,.BeefBox,.SushiBox{
+		border: 2px solid black;
+		width: 100%;
+		background: grey;
+	}
+
+	#chickenBody{
+		padding-top: 12px;
+		padding-left: 10px;
+		padding-right: 10px;
+		margin-top: 5%;
+	}	
+
+	@media(min-width: 992px)	
+	{
+		.chickenBox,.BeefBox,.SushiBox{
+			width: 30%;
+			margin: 5px;
+			display: inline-block;
+			align-items: center;
+			float: left;
+			background: grey;
+		}
+	}
+
+	@media(min-width: 768px) and (max-width: 991px)	
+	{
+		.chickenBox,.BeefBox{
+			width: 47%;
+			margin: 5px;
+			display: inline-block;
+			background: grey;
+			margin-bottom: 10px;
+		}
+		.SushiBox{
+			width: 97%;
+			margin: 5px;
+			background: grey;
+			padding: 0px;
+		}
+	}
+
+	@media (max-width: 767px){
+		.chickenBox,.BeefBox,.SushiBox{
+			background: grey;
+			width: 98%;
+			margin: 10px;
+		}
+	}
