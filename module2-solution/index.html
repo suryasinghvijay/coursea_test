@@ -1,1 +1,95 @@
-html file here
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Module 2 Coding Assignment</title>
+
+	<style type="text/css">
+
+h3{
+	width: 100%;
+	text-align: center;
+}
+	.heading{
+		color: black;
+		text-align: center;
+
+	}
+
+	#chickenheading{
+		background: pink;
+		float: right;
+		border: 1px solid black;
+		text-align: center;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		width: 20%;	
+	}
+
+	.chickenBox,.BeefBox,.SushiBox{
+		border: 2px solid black;
+		width: 100%;
+		background: blue;
+		margin-bottom: 5px;
+	}
+
+	#chickenBody{
+		padding-left: 10px;
+		padding-right: 10px;
+		margin-top: 5%;
+	}	
+
+	@media(min-width: 992px)	
+	{
+		.chickenBox,.BeefBox,.SushiBox{
+			width: 30%;
+			margin: 5px;
+			display: inline-block;
+			align-items: center;
+			float: left;
+		}
+	}
+
+	@media(min-width: 768px) and (max-width: 991px)	
+	{
+		.chickenBox,.BeefBox{
+			width: 47%;
+			margin: 5px;
+			display: inline-block;
+			background: red;
+			margin-bottom: 10px;
+		}
+		.SushiBox{
+			width: 98%;
+			margin: 5px;
+			background: red;
+			padding: 0px;
+		}
+	}
+
+	@media (max-width: 767px){
+		.chickenBox,.BeefBox,.SushiBox{
+			background: green;
+		}
+	}
+	</style>
+</head>
+<body>
+
+		<h3>Our Menu</h3>
+		<div class ="chickenBox">
+			<p id="chickenheading">chicken</p>
+				<p id="chickenBody">You can make it dummy text/"lorem ipsum", it doesn't matter. How the sections are laid out on the screen depends on the width of the browser window. (Hint: use media queries discussed)</p>
+		</div>
+
+		<div class ="BeefBox">
+			<p id="chickenheading">Beef</p>
+				<p id="chickenBody">You can make it dummy text/"lorem ipsum", it doesn't matter. How the sections are laid out on the screen depends on the width of the browser window. (Hint: use media queries discussed)</p>
+		</div>
+
+		<div class ="SushiBox">
+			<p id="chickenheading">Sushi</p>
+				<p id="chickenBody">You can make it dummy text/"lorem ipsum", it doesn't matter. How the sections are laid out on the screen depends on the width of the browser window. (Hint: use media queries discussed)</p>
+			</div>
+		
+</body>
+</html>
