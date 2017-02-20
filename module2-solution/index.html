@@ -1,94 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Module 2 Coding Assignment</title>
-
-	<style type="text/css">
-
-h3{
-	width: 100%;
-	text-align: center;
-}
-	.heading{
-		color: black;
-		text-align: center;
-
-	}
-
-	#chickenheading{
-		background: pink;
-		float: right;
-		border: 1px solid black;
-		text-align: center;
-		margin-top: 0px;
-		margin-bottom: 0px;
-		width: 20%;	
-	}
-
-	.chickenBox,.BeefBox,.SushiBox{
-		border: 2px solid black;
-		width: 100%;
-		background: grey;
-		margin-bottom: 5px;
-	}
-
-	#chickenBody{
-		padding-left: 10px;
-		padding-right: 10px;
-		margin-top: 5%;
-	}	
-
-	@media(min-width: 992px)	
-	{
-		.chickenBox,.BeefBox,.SushiBox{
-			width: 30%;
-			margin: 5px;
-			display: inline-block;
-			align-items: center;
-			float: left;
-			background: grey;
-		}
-	}
-
-	@media(min-width: 768px) and (max-width: 991px)	
-	{
-		.chickenBox,.BeefBox{
-			width: 47%;
-			margin: 5px;
-			display: inline-block;
-			background: grey;
-			margin-bottom: 10px;
-		}
-		.SushiBox{
-			width: 98%;
-			margin: 5px;
-			background: grey;
-			padding: 0px;
-		}
-	}
-
-	@media (max-width: 767px){
-		.chickenBox,.BeefBox,.SushiBox{
-			background: grey;
-		}
-	}
-	</style>
+<title>Module 2 Coding Assignment</title>
+	<link rel="stylesheet" type="text/css" href="Styles.css">
 </head>
 <body>
 
 		<h3>Our Menu</h3>
 		<div class ="chickenBox">
-			<p id="chickenheading">chicken</p>
+			<div id="chickenheading">chicken</div>
 				<p id="chickenBody">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		</div>
 
 		<div class ="BeefBox">
-			<p id="chickenheading">Beef</p>
+			<p id="BeefHeading">Beef</p>
 				<p id="chickenBody">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		</div>
 
 		<div class ="SushiBox">
-			<p id="chickenheading">Sushi</p>
+			<p id="SushiHeading">Sushi</p>
 				<p id="chickenBody">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			</div>
 		
