@@ -8,8 +8,30 @@
 
 	}
 
-	#chickenheading,#BeefHeading,#SushiHeading{
+	#chickenheading{
 		background: red;
+		text-align: center;
+		float: right;
+		border: 1px solid black;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		width: 50px;	
+		padding: 5px
+	}
+
+	#BeefHeading{
+		background: gold;
+		text-align: center;
+		float: right;
+		border: 1px solid black;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		width: 50px;	
+		padding: 5px
+	}
+
+	#SushiHeading{
+		background: green;
 		text-align: center;
 		float: right;
 		border: 1px solid black;
